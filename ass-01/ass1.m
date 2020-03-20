@@ -5,7 +5,13 @@
 clear; clc; close 'all';
 
 source_file = 'data-2x12-CPS4.csv';
-
+% data-2x12-CPS8.csv
+% data-2x12-CPSR4.csv
+% data-2x12-CPSR8.csv
+% data-4x24-CPS4.csv
+% data-4x24-CPS8.csv
+% data-4x24-CPSR4.csv
+% data-4x24-CPSR8.csv
 
 sim_data = csvread(source_file);
 
